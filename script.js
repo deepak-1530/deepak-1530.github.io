@@ -2,13 +2,13 @@
 
 const siteData = {
   name: "Deepak Singh",
-  photo: "profile.jpg",
+  photo: "profile.jpeg",
   intro: [
     `I am a PhD student at <a href="https://www.wpi.edu/" target="_blank">WPI</a>, working with <a href="https://nitinjsanket.github.io/" target="_blank">Prof. Nitin Sanket</a> in the <a href="https://pear.wpi.edu/" target="_blank">Perception and Autonomous Robotics (PeAR)</a> group. My research lies at the intersection of <strong>perception</strong> and <strong>embodied AI</strong> for enabling compute-efficient robot autonomy.`,
     `Primarily, I am working towards revisiting robot perception using concepts from <strong>computational imaging</strong> and <strong>embodied AI</strong> approaches to learn on the fly.`
   ],
   links: [
-    { label: "Email", url: "mailto:dsingh1@wpi.edu /mailto:say2deepaksingh@gmail.com" },
+    { label: "Email", url: "mailto:dsingh1@wpi.edu" },
     { label: "Github", url: "https://github.com/deepak-1530" },
     { label: "LinkedIn", url: "https://www.linkedin.com/in/deepak-singh-052a6212b/" },
     { label: "Google Scholar", url: "https://scholar.google.com/citations?hl=en&view_op=list_works&authuser=1&gmla=AJsN-F55HxKu3liUlv5-ImXEPRLucB5vslJ2faoaePIQt7aabp9cSglQy3eaWyzSh4H80YqNVVnJGD0pMdISTbTKpkIm8PpSdA&user=C7QA4swAAAAJ&gmla=AJsN-F5spTjdq0kxsX7QyiY8pOHPgp14q72E-vyY6yuf-cS41Fvy1EI2SYgawMHvLNuuWzerVT4-aDZC_uKUKLDCdOmCtwan3bA46as1Elii2FvZJ3ARcIA&sciund=2110782935162620661&gmla=AJsN-F4Fl8YI4_-dzA9eQf_SW_VzisFtWS5s7SmvmCzrG2BllRwopSLGZGjgI8bwJOJr3iOYsYdmVM8WSOr1q3J8k4VM91XKRSoKqpFD6s7Zh6c83AldMqU&sciund=6194703666537306964&gmla=AJsN-F5Dy-YWdg39oHl3CUa2TJPl_8t0O4-p2cLptDSsGOr0e63yWXPt5jUrcB1wbzmu0NAwg350IHtn2ORNLo-rp2eQbKm3ar_GnSe7-KnyG_X3gR-WKW0&sciund=4470283975738230080" },
