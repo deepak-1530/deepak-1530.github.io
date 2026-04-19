@@ -187,7 +187,7 @@ function renderIntro() {
     return `<a href="${l.url}"${target}>${l.label}</a>${sep}`;
   }).join("");
 
-  const tags = siteData.researchInterests.map(r => `<span class="interest-tag">${r}</span>`).join("");
+  const interests = siteData.researchInterests.join(", ");
 
   section.innerHTML = `<div class="container">
     <div class="intro-row">
@@ -197,8 +197,8 @@ function renderIntro() {
       <div class="intro-text">
         <h1>${siteData.name}</h1>
         ${paragraphs}
+        <p><strong>Research Interests:</strong> ${interests}</p>
         <div class="intro-links">${links}</div>
-        <div class="interests-list">${tags}</div>
       </div>
     </div>
   </div>`;
